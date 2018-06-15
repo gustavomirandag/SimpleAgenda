@@ -11,7 +11,8 @@ namespace MobileApp
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			//MainPage = new MainPage(); //Linha a ser apagada
+            MainPage = new NavigationPage(new MainPage());
 		}
 
 		protected override void OnStart ()

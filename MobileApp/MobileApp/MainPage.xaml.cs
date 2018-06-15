@@ -13,5 +13,16 @@ namespace MobileApp
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void BtnAdicionarContato_Clicked(Object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new AdicionarContatoPage());
+        }
+
+        private void BtnListarContatos_Clicked(Object sender, EventArgs args)
+        {
+            Navigation.PushAsync(new ListarContatosPage());
+        }
+
+    }
 }

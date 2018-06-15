@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.AdicionarContatoPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Adicionar Contato"
+                   HorizontalOptions="Center"
+                   FontSize="Large"/>
+            <Entry x:Name="EntryNome" 
+                   Placeholder="Digite seu nome aqui"/>
+            <Entry x:Name="EntryEmail" 
+                   Placeholder="Digite seu email aqui"/>
+            <Entry x:Name="EntryTelefone" 
+                   Placeholder="Digite seu telefone aqui"/>
+            <Button x:Name="BtnAdicionar" 
+                    Text="Adicionar"
+                    Clicked="BtnAdicionar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
